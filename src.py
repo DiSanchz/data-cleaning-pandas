@@ -51,3 +51,7 @@ def index_b_count(w, x, v, h):
             
     
     return emptydict
+
+def gdp_points(x):
+    #function that returns the desired gdp score
+    return (x*100)/110000
