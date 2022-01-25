@@ -30,3 +30,24 @@ def first_year(x):
         return y.group()
     else:
         return np.nan
+
+
+def index_b_count(w, x, v, h):
+    #return a dictionary containing the ratio between the count of two given categorical variables for the rows of a df
+    #whose index has a given value as value, and the index of refference of the dataframe as key
+    #Where w is a dataframe, x is a list of indices, v is the column that will serve as basis for the count
+    #and h is the column from which the values making up x have been taken
+    emptydict = {}
+
+    for i in x:
+        w_temp = w[w[h] == i]
+        if len(w_temp[v].value_counts()) > 1:
+            a = w_temp[v].value_counts()[0] 
+            b = w_temp[v].value_counts()[1]
+            c = b/a
+            emptydict[i] = c
+        else:
+            emptydict[i] = 0
+            
+    
+    return emptydict
