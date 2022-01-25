@@ -38,11 +38,12 @@ def index_b_count(w, x, v, h):
     #Where w is a dataframe, x is a list of indices, v is the column that will serve as basis for the count
     #and h is the column from which the values making up x have been taken
     emptydict = {}
-
+    
+    
     for i in x:
         w_temp = w[w[h] == i]
-        if len(w_temp[v].value_counts()) > 1:
-            a = w_temp[v].value_counts()[0] 
+        if len(w_temp[v].value_counts().value_counts()) > 1:
+            a = len(w_temp[v])
             b = w_temp[v].value_counts()[1]
             c = b/a
             emptydict[i] = c
