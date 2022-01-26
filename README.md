@@ -1,7 +1,7 @@
 # Data cleaning with pandas
 ## Project made as part of the Ironhack Data Analytics bootcamp program
 
-This project's aim is to clean a dataset employing mainly python's library Pandas, in order to be able to use the data to put at test a series of predefined hypothesis employing by employing only python visualization tools. The dataset that is to be employed is the *"Global Shark Attack"* dataset which contains information on the historical record of shark attacks to humans.
+This project's aim is to clean a dataset employing mainly python's library Pandas in order to be able to use the data to put at test a series of predefined hypothesis employing by employing only python visualization tools. The dataset that is to be employed is the *"Global Shark Attack"* dataset which contains information on the historical record of shark attacks to humans.
 
 ### > The hypotheses:
 
