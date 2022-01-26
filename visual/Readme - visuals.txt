@@ -7,3 +7,7 @@ Scatter_A2 -> Scatter plot of fatality ratio vs income with additions for easier
 
 Scatter_B -> Scatter plot fatality rate vs Time
 Regplot_B -> Scatter plot fatality rate vs Time with regression line
+
+Income_thresholds -> Extra scatter plot relating fatality and income
+	with the thresholds for each level of the world bank income scale
+	depicted on it.
