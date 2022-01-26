@@ -32,7 +32,7 @@ Link: [World Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.KD)
 
 The focus at the time of cleaning the *Shark Attack* dataset after the conversion into a Pandas DataFrame was on the columns that contained relevant information for the proposed hypothesis. Those were the essentially the columns containing information relative to time (year was the final unit of measurement selected to account for time) location (the country where the attack took place was the one deemed as most useful for the conducted analysis) and wheter the attack was fatal for the victim or not. 
 
-Afterwards, the data on GDP per capita was added<sup>(1)</sup> to the set  and fatality ratios (defined as number of fatal attacks over total attacks) were computed. These fatality ratios were calculated in two ways: 1. On  yearly basis for the period 1946-2018, and 2. On a per-country basis for each country with at least 20 observations <sup>(2)</sup>.
+Afterwards, the data on GDP per capita was added <sup>(1)</sup> to the set  and fatality ratios (defined as number of fatal attacks over total attacks) were computed. These fatality ratios were calculated in two ways: 1. On  yearly basis for the period 1946-2018, and 2. On a per-country basis for each country with at least 20 observations <sup>(2)</sup>.
 
 Regardig hypothesis 1, the resusts show that the fatality ratio decreases over time. Regarding hypothesis 2, while for the sample employed a strong linear relation between GDP per capita and fatality ration is not evident, it can be argued that countries with higher income per capita tend to have lower fatality ratios than their lower income counterparts.
 
